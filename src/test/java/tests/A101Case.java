@@ -234,6 +234,7 @@ public class A101Case extends TestBaseRapor {
 
 
         ReusableMethods.jsclick(a101Page.onBilgileriKabul);
+        extentTest.info("On bilgilere js method ile tiklama yapildi.");
 
         extentTest.info("On bilgileri kabul secenegi tiklandi.");
 

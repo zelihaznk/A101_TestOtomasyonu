@@ -24,9 +24,6 @@ public class A101Page {
     @FindBy(xpath = "//a[@data-value='1567']")
     public WebElement dizaltiCorap;
 
-    @FindBy(id = "attributes_integration_colourSİYAH")
-    public WebElement siyahRenkFiltre;
-
     @FindBy(xpath = "//h3[contains(text(),'Penti Kadın 50 Denye Pantolon Çorabı Siyah')]")
     public WebElement ilkCikanCorap;
 
@@ -85,7 +82,6 @@ public class A101Page {
     //Ödeme ekranı
     @FindBy(xpath = "//div[@class='form-area js-new-creditcard-area']//input[@name='name']")
     public WebElement adSoyad;
-
 
     @FindBy(xpath = "//div[@class='form-area js-new-creditcard-area']//select[@name='card_month']")
     public WebElement sonKullanmaTarihiAy;

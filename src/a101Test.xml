@@ -8,7 +8,7 @@ HTML kodlarındaki gibi tag'ların açılıp kapanışına dikkat etmemiz gereki
 XML dosyamızı oluştururken ilk önce <!DOCTYPE komutu ile başlamamız gerekiyor. Bunu TestNG
 sayfasından da alabiliriz. Sonrasında suite tag'ı ile başlayıp hangi testi çalıştıracaksak
 ona göre .xml formatını yazmamız gerekir.
-  -->
+-->
 
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 <suite name="a101 classini calistirma">
